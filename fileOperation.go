@@ -24,10 +24,10 @@ func check(e error) {
 	}
 }
 
-func MonthCompare(month string) string {
+func MonthCompare(value string) string {
 	var result string
 
-	switch month {
+	switch value {
 	case "Ocak":
 		result = "1"
 	case "Şubat":
